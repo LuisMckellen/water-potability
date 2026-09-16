@@ -2,7 +2,7 @@
 
 # ml--journey
 
-ML work as a first-year CSE student. One project taken properly from raw data to a deployed service, instead of several that stop at the notebook.
+ML work as a first-year CSE student. One project taken properly from raw data to a deployed link 
 
 ## Water Potability
 
