@@ -1,7 +1,5 @@
 ![CI](https://github.com/LuisMckellen/ml--journey/actions/workflows/ci.yml/badge.svg)
 
-# ml--journey
-
 ML work as a first-year CSE student. One project taken properly from raw data to a deployed link 
 
 ## Water Potability
