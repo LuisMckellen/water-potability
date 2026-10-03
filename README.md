@@ -1,4 +1,4 @@
-![CI](https://github.com/LuisMckellen/ml--journey/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/LuisMckellen/water-potability/actions/workflows/ci.yml/badge.svg)
 
 ML work as a first-year CSE student. One project taken properly from raw data to a deployed link 
 
@@ -109,7 +109,7 @@ Diffing the median vectors directly shows why it could never have been large:
 
 `Sulfate`, the column with the most missing values, has an identical median either way. The other two differ by 0.02% and 0.085%. The leaky and clean pipelines train on very nearly the same data, so there was almost no test-set information available to transfer.
 
-**The leak is still worth fixing, but for a different reason than the obvious one.** Leaky runs have a spread of 0.0265 against clean's 0.0168. Leakage here didn't inflate the score — it inflated the variance. A leaky pipeline returns a number that is unreliable in both directions, which is worse than one that is reliably optimistic.
+**The leak is still worth fixing, but for a different reason than the obvious one.** Leaky runs have a spread of 0.0265 against clean's 0.0168. Leakage here didn't inflate the score. A leaky pipeline returns a number that is unreliable in both directions, which is worse than one that is reliably optimistic.
 
 ## The version-drift claim, also retracted
 
